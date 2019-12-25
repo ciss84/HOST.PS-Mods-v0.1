@@ -1,6 +1,10 @@
 var ICONSZ = 150;
 var PADDING = 20;
-
+var model = {
+  cursor: {
+    x: 0,
+    y: 0
+  },
 var xmbVue = new Vue({
   el: "#xmb",
   data: model,
